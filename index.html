@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Privacy Policy — GestrTube</title>
+  <style>
+    body { font-family: system-ui, sans-serif; max-width: 42rem; margin: 2rem auto; padding: 0 1rem; line-height: 1.5; color: #111; }
+    h1 { font-size: 1.5rem; }
+    h2 { font-size: 1.1rem; margin-top: 1.5rem; }
+    .updated { color: #555; font-size: 0.9rem; }
+  </style>
+</head>
+<body>
+  <h1>Privacy Policy</h1>
+  <p class="updated"><strong>GestrTube</strong> · Last updated: <span id="y"></span></p>
+  <script>document.getElementById('y').textContent = new Date().getFullYear();</script>
+  <p>This privacy policy describes how <strong>Aryan</strong> (“we”, “us”) handles information in connection with the <strong>GestrTube</strong> browser extension for Google Chrome.</p>
+  <p><strong>Contact:</strong> <a href="mailto:YOUR_EMAIL@example.com">YOUR_EMAIL@example.com</a></p>
+  <h2>Summary</h2>
+  <p>The extension lets you use <strong>hand gestures</strong> (detected from your device camera when you turn the feature on) to scroll web pages and to move between videos on YouTube Shorts. Gesture recognition runs <strong>on your device</strong> using software bundled inside the extension.</p>
+  <h2>Information we do not collect</h2>
+  <p>We do not operate a backend service for this extension. We do <strong>not</strong> collect, store, or have access to your browsing history, full page contents, or camera video. We do <strong>not</strong> sell personal data or use it for advertising.</p>
+  <h2>Camera</h2>
+  <p>The extension may access your camera <strong>only after you enable gestures</strong> and grant the browser’s camera permission. Video is processed locally in real time for gesture detection. We do not receive copies of your camera feed.</p>
+  <h2>Data stored on your device</h2>
+  <p>The extension may store <strong>only your settings</strong> (for example, whether gesture control is turned on) using Chrome’s extension storage on your device. This data stays on your device unless you sync or back up your browser through Google’s own features, which is outside our control.</p>
+  <h2>How the extension uses Chrome permissions (plain language)</h2>
+  <ul>
+    <li><strong>Storage:</strong> Saves your on/off preference and similar settings locally.</li>
+    <li><strong>Offscreen:</strong> Allows a hidden extension page to use the camera and run bundled on-device hand tracking, as required for Manifest V3.</li>
+    <li><strong>Tabs:</strong> Used to detect whether a YouTube tab is open so the extension can manage when the camera pipeline should run.</li>
+    <li><strong>Broad website access (&lt;all_urls&gt;):</strong> A content script runs on pages so that, when gestures are enabled, the extension can apply scrolling or navigation on the active tab (including generic page scrolling outside YouTube, and Shorts navigation on YouTube Shorts).</li>
+  </ul>
+  <h2>Third-party services</h2>
+  <p>The extension’s popup may request <strong>fonts</strong> from Google Fonts when you open it. That request is subject to <a href="https://policies.google.com/privacy" rel="noopener noreferrer">Google’s privacy policy</a>. The core gesture and scrolling functionality does not depend on sending your camera data to us or to those font servers.</p>
+  <h2>Children</h2>
+  <p>The extension is not directed at children under 13, and we do not knowingly collect personal information from children.</p>
+  <h2>Changes</h2>
+  <p>We may update this policy when the extension changes. The “Last updated” year will be revised when material changes are made.</p>
+</body>
+</html>
